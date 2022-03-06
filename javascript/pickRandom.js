@@ -6,6 +6,10 @@ const pickRandom = (list, num)=> {
 	const tlist = typeof(list);
 	const tnum = typeof(num);
 	
+	if(list==null&&num==null){//called without parametere
+		return Math.random()
+	}
+	
   
   
   //console.log (typeof(list))
@@ -52,3 +56,4 @@ const pickRandom = (list, num)=> {
 		return Math.floor(rpm);
 	}
 }
+pickRandom();
