@@ -1,0 +1,10 @@
+function addList(item) {
+	const verify = ()=> {
+		list. splice(list. indexOf (item), 1);
+		list.push(item);
+	}
+
+	list. includes (item)? verify(): list.push(item);
+
+
+}
