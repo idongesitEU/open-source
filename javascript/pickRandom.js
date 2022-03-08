@@ -56,4 +56,4 @@ const pickRandom = (list, num)=> {
 		return Math.floor(rpm);
 	}
 }
-pickRandom();
+
