@@ -1,5 +1,5 @@
 
-// JavaScript file
+// Generate Random 64 digit Hexadecimal Hash
 
 function removeDup(array){
 	arr=[]
