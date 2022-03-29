@@ -87,13 +87,4 @@ return pk
 };
 PK=genPK(hexF);
 
-for(i=0;i>=0;i++){
-	
-	es=[];
-	tpk=genPK(hexF);
-	es.push(tpk)
-	if(es.includes(PK)){
-		console.log('duplicate found ')
-		break
-	}
-}
+console.log (hexF);
