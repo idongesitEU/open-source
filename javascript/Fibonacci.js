@@ -1,6 +1,6 @@
 //call this function to return n values of a finonacci series
 const nthTerms = (n)=> {
-	n = Math.abs(n); //get the absolute value of n so that the user doesnt parse in negative nimbers
+	n = Math.abs(n); //get the absolute value of n so that the user doesnt parse in a negative number
 	n = Math.floor(n); //prevent the user from parsing in a floating point number
 	const series = new Array(n); //create a new array of size n
 	const breakF = ()=> {
