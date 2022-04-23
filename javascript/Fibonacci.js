@@ -7,7 +7,7 @@ const nthTerms = (n)=> {
 		//used to break the function
 		return false;
 	}
-	n == 0?breakF(): true; //if 0 is passed as an agruement, the finction returns false
+	n == 0?breakF(): true; //if 0 is passed as an agruement, the function returns false
 	series[0] = 0; //assign the first item in series to 0 since thats the first item in a fibonacci series
 	if (n == 1)return series; //if the user requestes the first value only return the array here
 	series[1] = 1; //assign the second value of the series to 1 since the second value of a fibonacci series is 1
