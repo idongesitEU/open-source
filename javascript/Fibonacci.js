@@ -11,7 +11,7 @@ const nthTerms = (n)=> {
 	series[0] = 0; //assign the first item in series to 0 since thats the first item in a fibonacci series
 	if (n == 1)return series; //if the user requestes the first value only return the array here
 	series[1] = 1; //assign the second value of the series to 1 since the second value of a fibonacci series is 1
-	if (n == 2)return series; //return the series here if the user only rewuested 2 terms
+	if (n == 2)return series; //return the series here if the user only requested 2 terms
 
 	for (let i = 2; i < n; i++) {
 		//use a for loop to generate the next number of items in the series starting from the third item
