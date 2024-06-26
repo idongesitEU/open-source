@@ -65,7 +65,7 @@ class Combination {
                 if ((currentIndex + 1) % kLength == 0) sampleIndex = sampleCycle.getNextIndex();
                 ++currentIndex;
             }
-            System.out.printf("step: %d, kLength: %d\n", step, kLength);
+            //System.out.printf("step: %d, kLength: %d\n", step, kLength);
         }
         return sampleSpace;
     }
